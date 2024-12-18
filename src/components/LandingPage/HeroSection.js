@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HeroSrction() {
+export default function HeroSection() {
   return (
     <div>
       Herosection
