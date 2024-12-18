@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import FAQ from '../components/FAQ/faq'; // Correct path
 
-function LandingPage() {
+function Page() {
   return (
     <div>
-      Landing Page
+      <FAQ />
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default Page;
