@@ -1,7 +1,6 @@
 "use client"; 
 
 import React, { useState } from "react";
-import "src/app/globals.css";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(1); 
