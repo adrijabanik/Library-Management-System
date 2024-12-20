@@ -1,5 +1,5 @@
 import React from 'react';
-import FAQ from '../components/FAQ/faq'; // Correct path
+import FAQ from '../components/LandingPage/faq'; // Correct path
 
 function Page() {
   return (
