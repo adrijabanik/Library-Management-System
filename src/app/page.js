@@ -1,23 +1,12 @@
-import React from 'react';
-import FAQ from '../components/LandingPage/faq'; // Correct path
-import Navbar from '@/components/LandingPage/Header';
-import Footer from '@/components/LandingPage/Footer';
+import React from 'react'
+import Navbar from '@/components/LandingPage/Navbar'
+import WhyUs from '@/components/LandingPage/WhyUs'
 
 function Page() {
   return (
     <div>
-           <div>
-      
-        <Navbar />
-         <br />
-         <br />
-         <br />
-        <FAQ />
-         <br />
-         <br />
-         <br />
-        <Footer />
-      </div>
+      {/* Landing Page */}
+      <WhyUs />
     </div>
     
   );
