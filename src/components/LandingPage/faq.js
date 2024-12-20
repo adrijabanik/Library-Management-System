@@ -1,7 +1,7 @@
-"use client";
+"use client"; 
 
 import React, { useState } from "react";
-import "./Faq.css";
+import "src/app/globals.css";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(1); 
@@ -38,7 +38,7 @@ const Faq = () => {
 
   return (
     <div className="faq-wrapper">
-     
+      {/* Background Image */}
       <div className="faq-background-image">
         <img src="/book.png" alt="FAQ Background" />
       </div>
