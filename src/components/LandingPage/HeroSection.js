@@ -50,11 +50,12 @@ export default function HeroSection() {
       width={500}
       height={470}
        alt='Cubic'
-       className='w-3/12 h-2/6 relative bottom-14 sm:bottom-28 md:bottom-28 overflow-hidden'
+       className='w-3/12 h-2/6 relative bottom-14 
+       sm:bottom-28 md:bottom-28 overflow-hidden'
        src='/assets/cubic.png'
       ></Image>
       <div 
-       className='w-full h-96'
+       className='w-full h-36 sm:h-40 md:h-64 lg:h-96'
       style={{
         backgroundImage: `url('/assets/hero-bg.png')`,
         backgroundSize: 'cover', // Ensures the image covers the entire div
@@ -78,8 +79,7 @@ export default function HeroSection() {
              ml-10 sm:ml-24 lg:ml-40 h-2/4 '
              src='/assets/mobile.png'
             ></Image>
-      </div></div>
-      </div>
+      </div></div></div>
     </>
   )
 }

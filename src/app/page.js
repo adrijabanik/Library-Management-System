@@ -7,7 +7,7 @@ function Page() {
   return (
     <div >
 
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <WhyUs /> */}
     </div>
     
