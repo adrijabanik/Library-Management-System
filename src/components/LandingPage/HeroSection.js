@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <>
     {/* <Navbar /> */}
-      <div className='bg-[#EDFFF5] w-full min-h-screen relative  text-black'>
+      <div className='bg-[#EDFFF5] w-full relative min-h-screen text-black overflow-hidden'>
         {/* image */}
         <div 
         className='absolute left-2/4 ml-28 mt-4 bg-contain opacity-50 bg-no-repeat '>
@@ -46,6 +46,43 @@ export default function HeroSection() {
       src='/assets/arrow.png'></Image></Link>
       </div>
       </div>
+      <Image
+      width={500}
+      height={470}
+       alt='Cubic'
+       className='w-3/12 h-2/6 relative bottom-14 sm:bottom-28 md:bottom-32 overflow-hidden'
+       src='/assets/cubic.png'
+      ></Image>
+      <div className='relative bottom-96 left-36 '>
+      <Image 
+           width={1000}
+           height={1000}
+            alt='Library'
+            className='w-8/12 h-2/4 rounded-2xl'
+            src='/assets/lib.jpeg'
+           ></Image>
+      </div>
+      {/* <div className='relative bottom-14 sm:bottom-28 md:bottom-32 flex flex-col md:flex-row overflow-hidden'>
+      <Image
+      width={500}
+      height={470}
+       alt='Cubic'
+       className='w-1/5 h-2/6'
+       src='/assets/cubic.png'
+      ></Image>
+      <div 
+      className=' absolute top-56 w-full h-full'>
+        <div className='relative left-24 '>
+          <Image 
+           width={600}
+           height={500}
+            alt='Library'
+            className='w-7/12 h-2/4'
+            src='/assets/lib.jpeg'
+           ></Image>
+        </div>
+      </div>
+      </div> */}
       </div>
     </>
   )
