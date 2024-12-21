@@ -26,18 +26,6 @@ const Header = () => {
           href="/" 
           className="text-lg font-medium text-white relative transition-all hover:after:w-full after:content-[''] after:absolute after:top-full after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all"
         >
-          Enterprise
-        </a>
-        <a 
-          href="/" 
-          className="text-lg font-medium text-white relative transition-all hover:after:w-full after:content-[''] after:absolute after:top-full after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all"
-        >
-          Open an account
-        </a>
-        <a 
-          href="/" 
-          className="text-lg font-medium text-white relative transition-all hover:after:w-full after:content-[''] after:absolute after:top-full after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all"
-        >
           Sign in
         </a>
       </nav>
