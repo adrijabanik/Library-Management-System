@@ -1,7 +1,7 @@
 "use client"; 
 
 import React, { useState } from "react";
-
+import Image from "next/image";
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(1); 
 
@@ -39,10 +39,14 @@ const Faq = () => {
     <div className="faq-wrapper">
       {/* Background Image */}
       <div className="faq-background-image">
-        <img src="/book.png" alt="FAQ Background" />
+         <Image 
+                    width={1300}
+                    height={1300}
+                     alt='Library'
+                     src='/assets/book.png'
+                    ></Image>
       </div>
-
-      <div className="faq-container">
+     <div className="faq-container">
         {/* Left Section */}
         <div className="faq-left">
           <h5>Frequently Asked Questions</h5>
@@ -52,7 +56,12 @@ const Faq = () => {
             returning books, and using our library system effectively.
           </p>
           <div className="faq-image">
-            <img src="/booj.png" alt="Books and Graduation Cap" />
+          <Image 
+                    width={1300}
+                    height={1300}
+                     alt='Library'
+                     src='/assets/booj.png'
+                    ></Image>
           </div>
         </div>
 
