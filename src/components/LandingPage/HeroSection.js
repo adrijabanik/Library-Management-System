@@ -50,39 +50,35 @@ export default function HeroSection() {
       width={500}
       height={470}
        alt='Cubic'
-       className='w-3/12 h-2/6 relative bottom-14 sm:bottom-28 md:bottom-32 overflow-hidden'
-       src='/assets/cubic.png'
-      ></Image>
-      <div className='relative bottom-96 left-36 '>
-      <Image 
-           width={1000}
-           height={1000}
-            alt='Library'
-            className='w-8/12 h-2/4 rounded-2xl'
-            src='/assets/lib.jpeg'
-           ></Image>
-      </div>
-      {/* <div className='relative bottom-14 sm:bottom-28 md:bottom-32 flex flex-col md:flex-row overflow-hidden'>
-      <Image
-      width={500}
-      height={470}
-       alt='Cubic'
-       className='w-1/5 h-2/6'
+       className='w-3/12 h-2/6 relative bottom-14 sm:bottom-28 md:bottom-28 overflow-hidden'
        src='/assets/cubic.png'
       ></Image>
       <div 
-      className=' absolute top-56 w-full h-full'>
-        <div className='relative left-24 '>
-          <Image 
-           width={600}
-           height={500}
+       className='w-full h-96'
+      style={{
+        backgroundImage: `url('/assets/hero-bg.png')`,
+        backgroundSize: 'cover', // Ensures the image covers the entire div
+        backgroundPosition: ' center', // Centers the image
+        backgroundRepeat: 'no-repeat',
+      }}>
+      <div className='relative bottom-40 sm:bottom-60 sm:left-20 md:bottom-80 left-14
+      lg:bottom-96 md:left-24 lg:left-32 '>
+      <Image 
+           width={1300}
+           height={1300}
             alt='Library'
-            className='w-7/12 h-2/4'
+            className='sm:w-8/12 w-7/12 h-2/4 rounded-2xl'
             src='/assets/lib.jpeg'
            ></Image>
-        </div>
-      </div>
-      </div> */}
+           <Image 
+            width={1300}
+            height={1300}
+             alt='Library'
+             className='w-2/12 sm:w-1/5 relative bottom-32 sm:bottom-60 md:bottom-80 lg:bottom-96 left-2/4 
+             ml-10 sm:ml-24 lg:ml-40 h-2/4 '
+             src='/assets/mobile.png'
+            ></Image>
+      </div></div>
       </div>
     </>
   )
