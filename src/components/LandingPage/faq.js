@@ -50,7 +50,7 @@ const Faq = () => {
         {/* Left Section */}
         <div className="faq-left">
           <h5>Frequently Asked Questions</h5>
-          <h2>Let's clarify some of your questions</h2>
+          <h2>Let&apos;s clarify some of your questions</h2>
           <p>
             Find quick answers to common questions about searching, borrowing,
             returning books, and using our library system effectively.
