@@ -7,7 +7,7 @@ function Page() {
   return (
     <div>
       <HeroSection />
-      {/* <Faq /> */}
+      <Faq />
       <WhyUs />
       <Footer />
     </div>
