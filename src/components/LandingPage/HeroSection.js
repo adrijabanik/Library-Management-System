@@ -14,6 +14,7 @@ export default function HeroSection() {
             height={200}
             className="hidden sm:block md:w-full h-40 sm:h-52 md:h-72 "
             src="/assets/herobook1.png"
+            priority
           ></Image>
         </div>
         {/* content */}
