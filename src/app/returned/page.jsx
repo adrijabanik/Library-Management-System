@@ -27,7 +27,7 @@ const LibraryDashboard = () => {
         <div className="flex justify-between items-center mb-4 bg-green-500 rounded">
           <div className="text-2xl font-bold">Nisal Gunasekara</div>
           <div className="text-sm">
-            <span>12:39 PM</span> | <span>Jan 02, 2025|<Settings/></span>
+            <span>12:39 PM</span> | <span>Jan 02, 2025</span>
           </div>
         </div>
 
