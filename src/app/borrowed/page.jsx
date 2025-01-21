@@ -22,7 +22,7 @@ const LibraryDashboard = () => {
       </div>
 
       <div className="flex-1 p-8">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center mb-4 bg-green-500 rounded">
           <div className="text-2xl font-bold">Nisal Gunasekara</div>
           <div className="text-sm">
             <span>12:39 PM</span> | <span>Jan 02, 2025</span>
@@ -35,14 +35,12 @@ const LibraryDashboard = () => {
 
         <div className="flex mb-4">
           <button 
-            className={`px-4 py-2 rounded-md ${activeTab === 'borrowed' ? 'bg-purple-500 text-white' : 'bg-gray-200'}`}
-            onClick={() => handleTabChange('borrowed')}
+            className={`px-4 py-2 rounded-md bg-gray-200 text-black`}
           >
             Borrowed Books
           </button>
           <button 
-            className={`px-4 py-2 rounded-md ml-2 ${activeTab === 'returned' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-            onClick={() => handleTabChange('returned')}
+            className={`px-4 py-2 rounded-md ml-2 bg-blue-500 text-white`}
           >
             Returned Books
           </button>
