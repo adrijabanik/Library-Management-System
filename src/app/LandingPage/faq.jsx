@@ -98,32 +98,32 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      question: "How do I search for a book in the library?",
+      answer: "You can search for a book using the search bar on the homepage. Simply enter the book title, author name, or keywords related to the book, and the system will display matching results from the catalog.",
     },
     {
-      question: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet?",
+      question: "What should I do if I forget my password?",
       answer:
-        "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipiscing elit.",
+        "Click on the Forgot Password link on the login page. Enter your registered email address, and a password reset link will be sent to you. Follow the instructions in the email to reset your password.",
     },
     {
-      question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
-      answer: "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+      question: "Can I reserve a book that’s currently checked out?",
+      answer: "Yes, you can place a reservation, and you’ll be notified when the book becomes available.",
     },
     {
       question:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit?",
+        "What happens if I return a book late?",
       answer:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "If you return a book after the due date, a late fee will be applied. The amount of the fine depends on the library's policy, which you can check in the Rules and Policies section of the system.",
     },
     {
-      question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      question: "Can I access the library system on my phone?",
+      answer: "Yes, the system is mobile-friendly and accessible via a web browser.",
     },
   ];
 
   return (
-    <div className="relative max-w-6xl mx-auto mt-10 p-6">
+    <div className="relative max-w-6xl mx-auto mt-16 p-6">
       {/* Background Image */}
       <div className="absolute top-[-80px] right-[-30px] z-0 opacity-70">
         <Image
@@ -139,7 +139,7 @@ const Faq = () => {
       <div className="relative z-10 flex flex-col lg:flex-row gap-8 bg-white p-8 rounded-lg shadow-md">
         {/* Left Section */}
         <div className="lg:w-1/2">
-          <h5 className="text-orange-500 text-sm mb-2">Frequently Asked Questions</h5>
+          <h5 className="text-blue-700 text-lg mb-2">Frequently Asked Questions</h5>
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Let&apos;s clarify some of your questions
           </h2>
