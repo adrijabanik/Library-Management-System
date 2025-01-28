@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer overflow-x-hidden">
       <div className="footer-container">
 
         <div className="footer-links">

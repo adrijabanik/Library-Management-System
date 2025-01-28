@@ -8,10 +8,10 @@ import Returned from '@/app/Returned/page'
 const page = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Faq />
-      <WhyUs />
-      <Footer />
+      {/* <WhyUs /> */}
+      {/* <Footer /> */}
       {/* <Borrowed />
       <Returned /> */}
     </div>

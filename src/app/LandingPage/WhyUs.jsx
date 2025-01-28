@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function WhyUs() {
   return (
-    <section className="bg-gray-100 py-16 px-4 md:px-8 lg:px-16 overflow-hidden"
+    <section className="bg-gray-100 py-16 px-4 md:px-8 lg:px-16 "
     style={{ backgroundImage: 'url(/assets/whyus.png)', backgroundSize: 'cover', backgroundPosition:'center'}}>
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 text-white uppercase">Why Us!</h2>
