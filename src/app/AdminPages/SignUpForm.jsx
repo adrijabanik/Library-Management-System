@@ -123,7 +123,10 @@
 
 // export default SignUpForm;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68c500ec5a02c7bf9687ae95a86f9023460012c9
 import React from "react";
 
 const SignUpForm = () => {
