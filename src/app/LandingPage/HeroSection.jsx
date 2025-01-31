@@ -36,7 +36,7 @@ export default function HeroSection() {
             resources.
           </p>
           <div className="flex justify-between gap-6">
-          <Link href="/get-started">
+          <Link href="/signup">
           <button
               className="w-24 h-8 md:w-32 md:h-12
        text-white text-sm md:text-base
@@ -45,7 +45,7 @@ export default function HeroSection() {
               Get Started{" "}
             </button>
           </Link>
-            <Link href="/get-started">
+            <Link href="/signup">
               <Image
                 width={40}
                 height={26}
@@ -76,7 +76,7 @@ export default function HeroSection() {
           }}
         >
           <div
-           className="relative flex bottom-20 sm:bottom-80 sm:left-20 md:bottom-60 left-[68px] lg:bottom-80 md:left-40 lg:left-60 "
+           className="relative flex bottom-40 sm:bottom-80 sm:left-20 md:bottom-60 left-[68px] lg:bottom-80 md:left-40 lg:left-60 "
            >
             <Image
               width={1300}
