@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Aboutus from "@/app/LandingPage/Aboutus";
+import Faq from "@/app/LandingPage/faq";
+import WhyUs from "@/app/LandingPage/WhyUs";
+import Footer from "@/app/Menubar/Footer";
+
+
 export default function HeroSection() {
   return (
     <>
@@ -95,6 +101,10 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      <Aboutus />
+      <WhyUs />
+      <Faq />
+      <Footer />
     </>
   );
 }
