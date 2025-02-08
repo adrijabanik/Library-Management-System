@@ -5,7 +5,7 @@ import Aboutus from "@/app/LandingPage/Aboutus";
 import Faq from "@/app/LandingPage/faq";
 import WhyUs from "@/app/LandingPage/WhyUs";
 import Footer from "@/app/Menubar/Footer";
-
+import Testimonials from "./Testimonials";
 
 export default function HeroSection() {
   return (
@@ -103,6 +103,7 @@ export default function HeroSection() {
       </div>
       <Aboutus />
       <WhyUs />
+      <Testimonials />
       <Faq />
       <Footer />
     </>

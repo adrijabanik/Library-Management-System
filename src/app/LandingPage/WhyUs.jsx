@@ -8,8 +8,9 @@ function WhyUs() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 text-white uppercase">Why Us ?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900">
-            <div className='absolute -z-10 top-0 left-0 w-full h-full bg-pink-500 rounded-lg transform -rotate-6 translate-x-4 translate-y-4'></div>
+
+        <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900 transition-transform transform hover:scale-105 ">
+        <div className='absolute -z-10 top-0 left-0 w-full h-full  rounded-lg '></div>
             <div className="flex items-center mb-4">
                 <Image
                     width={25}
@@ -23,8 +24,8 @@ function WhyUs() {
             <p className="text-gray-300"> Navigate effortlessly with our intuitive and easy-to-use design, tailored for all user levels.</p>
           </div>
 
-          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900">
-            <div className='absolute -z-10 top-0 left-0 w-full h-full bg-pink-500 rounded-lg transform -rotate-6 translate-x-4 translate-y-4'></div>
+          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900 transition-transform transform hover:scale-105 ">
+          <div className='absolute -z-10 top-0 left-0 w-full h-full  rounded-lg '></div>
             <div className="flex items-center mb-4">
                 <Image
                     width={25}
@@ -41,8 +42,8 @@ function WhyUs() {
             </p>
           </div>
 
-          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900">
-          <div className="absolute -z-10 top-0 left-0 w-full h-full bg-pink-500 rounded-lg transform -rotate-6 translate-x-4 translate-y-4"></div>
+          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900 transition-transform transform hover:scale-105 ">
+          <div className='absolute -z-10 top-0 left-0 w-full h-full  rounded-lg '></div>
             <div className="flex items-center mb-4">
                 <Image
                     width={25}
@@ -59,8 +60,8 @@ function WhyUs() {
             </p>
           </div>
 
-          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900">
-            <div className='absolute -z-10 top-0 left-0 w-full h-full bg-pink-500 rounded-lg transform -rotate-6 translate-x-4 translate-y-4'></div>
+          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900 transition-transform transform hover:scale-105 ">
+          <div className='absolute -z-10 top-0 left-0 w-full h-full  rounded-lg '></div>
             <div className="flex items-center mb-4">
                <Image
                 width={25}
@@ -75,8 +76,8 @@ function WhyUs() {
             Access e-books, research materials, and your account anytime, anywhere.
             </p>
           </div>
-          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900">
-            <div className='absolute -z-10 top-0 left-0 w-full h-full bg-pink-500 rounded-lg transform -rotate-6 translate-x-4 translate-y-4'></div>
+          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900 transition-transform transform hover:scale-105 ">
+          <div className='absolute -z-10 top-0 left-0 w-full h-full  rounded-lg '></div>
             <div className="flex items-center mb-4">
                <Image
                 width={25}
@@ -91,8 +92,8 @@ function WhyUs() {
             Designed to adapt to your library’s unique needs, ensuring a personalized experience for users and administrators.
             </p>
           </div>
-          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900">
-            <div className='absolute -z-10 top-0 left-0 w-full h-full bg-pink-500 rounded-lg transform -rotate-6 translate-x-4 translate-y-4'></div>
+          <div className="relative bg-black text-white p-8 rounded-lg shadow-xl border-t-4 border-l-4 border-indigo-900 transition-transform transform hover:scale-105 ">
+            <div className='absolute -z-10 top-0 left-0 w-full h-full  rounded-lg '></div>
             <div className="flex items-center mb-4">
                <Image
                 width={25}
@@ -112,5 +113,7 @@ function WhyUs() {
     </section>
   );
 }
+
+
 
 export default WhyUs;
