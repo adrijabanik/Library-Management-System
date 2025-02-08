@@ -1,20 +1,18 @@
-import WhyUs from "@/app/LandingPage/WhyUs";
-import Footer from "@/app/Menubar/Footer";
 import HeroSection from "@/app/LandingPage/HeroSection";
-import Faq from "@/app/LandingPage/faq";
-import Borrowed from '@/app/Borrowed/page'
+// import Borrowed from '@/app/Borrowed/page'
 import Returned from '@/app/Returned/page'
-import ForgotPasswordForm from "@/app/AdminPages/ForgotPasswordForm.jsx";
-
+// import ForgotPasswordForm from "@/app/AdminPages/ForgotPasswordForm.jsx";
+import DashboardAdmin from "@/app/Dashboard-Admin/Dashboard";
+import DashboardUser from "@/app/Dashboard-User/Main";
+import Signin from "@/app/asignin/page"
 function Page() {
   return (
     <div>
-      <HeroSection />
-      <Faq />
-      <WhyUs />
-      <Footer />
-      <Borrowed />
-      <Returned />
+    <Signin/>
+      {/* <DashboardUser /> */}
+      {/* <HeroSection /> */}
+      {/* <Borrowed /> */}
+      {/* <Returned /> */}
       {/* <ForgotPasswordForm /> */}
     </div>
   );
