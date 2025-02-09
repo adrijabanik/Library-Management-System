@@ -30,10 +30,11 @@ const AuthPage = () => {
         <Link href="/aforget" className="text-sm text-gray-600 mb-4 hover:underline">
           Forgot password?
         </Link>
-
+<Link href="/LandingPage" className="text-sm text-gray-600 mb-4 hover:underline">
         <button className="bg-black text-white px-6 py-2 rounded-xl text-lg w-64 md:w-80 hover:opacity-80">
           SIGN IN
         </button>
+  </Link>
       </div>
 
       {/* Right - Signup Section */}
