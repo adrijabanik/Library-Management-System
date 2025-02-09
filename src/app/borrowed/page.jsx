@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import Returned from '@/components/Returned/page'
+import Returned from '@/app/Returned/page'
 // import Borrowed from '@/components/Borrowed/page'
 const LibraryDashboard = () => {
   const [activeTab, setActiveTab] = useState('borrowed');
